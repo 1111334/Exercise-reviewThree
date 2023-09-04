@@ -1,6 +1,5 @@
 public class Student {
     private long identifier;
-
     private String fullName;
     private double worstGrade;
     private static double bestGrade;
@@ -27,8 +26,11 @@ public class Student {
         for (Student student : arrayStudent) {
             if (student.getBestGrade() > 28.0) {
                 System.out.println(student.getFullName());
+                System.out.println(student.getIdentifier());
             }
         }
+
+
 
     }
 }

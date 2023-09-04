@@ -8,13 +8,5 @@ public class Main {
 
         System.out.println("Excellent student: ");
         Student.printExcellentStudents(students);
-
-        for (Student student : students) {
-            //System.out.println("Best Grade: " + student.getBestGrade());
-            System.out.println("Full name: " + student.getFullName() + "\n" + "full identifier: " + student.getIdentifier());
-        }
-
-
-
     }
 }
